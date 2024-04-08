@@ -1,5 +1,7 @@
 # Arquitetura Big Data Corp
 
+![arquitetura big data corp](https://github.com/elisiomualumene/bigdatacorp_architecture/blob/main/BigDataCorp.png)
+
 Neste cenário temos um desafio, garantir que o site finalize a venda apenas para pessoas que realmente receberão os ingressos afinal, não queremos que alguém compre o ingresso e depois descubra que não há mais disponiveis. Além disso, precisamos lidar com a questão da velocidade da internet, para que os usuários com conexões mais lentas não sejam prejudicados.
 
 Para resolver estas questões sugeria a seguinte arquitetura:
