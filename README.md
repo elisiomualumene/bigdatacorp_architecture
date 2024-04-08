@@ -6,6 +6,8 @@ Para resolver estas questões sugeria a seguinte arquitetura:
 
 Balanceador de Carga - ele distribui as solicitações dos usuários entre os vários servidores da aplicação, possibilitando maior capacidade de acessos simultaneos
 
+Escalar de Forma Horizontal -  usária um srviço para escalar de forma horizontal os servidores da aplicação como o ASG (Auto Scalling Group) da AWS se estivermos a falar de uma arquitetura na nuvem
+
 Banco de Dados - um banco de dados que armazene informações sobre ingressos, usuários e sessões ativas e para evitar problemas com ingresso, usamos transações de banco de dados para atualizar o status dos ingressos
 
 Banco de Dados para Cache com o redis
